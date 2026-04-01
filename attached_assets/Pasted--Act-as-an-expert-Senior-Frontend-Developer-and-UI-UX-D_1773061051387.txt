@@ -1,0 +1,50 @@
+
+
+**Act as an expert Senior Frontend Developer and UI/UX Designer.** I need you to build a complete, fully functional, production-ready website for an interior design and carpentry business called **Tayabi Decor**.
+
+**Tech Stack:** Use React, Tailwind CSS for styling, and Framer Motion (or GSAP) for high-end, smooth animations. Use standard placeholder images (like Unsplash) that fit the theme so the site looks 100% finished upon rendering.
+
+**Vibe & Design Language:**
+
+* **Aesthetic:** Professional, luxurious, and "Wood-based" but modern. Incorporate subtle nods to Roman architecture (e.g., elegant arches, clean pillars, structured symmetry) blended with high-end modern tech aesthetics.
+* **Colors:** Deep rich wood tones (walnut/mahogany), warm off-whites or creams (like Roman marble), and subtle gold or brass accents.
+* **Interactivity (CRITICAL):** The site must feel like an Apple, Samsung, or Nike product page. I need heavy interactivity: parallax scrolling, elements fading/sliding in as I scroll, magnetic or highly reactive hover effects on all buttons and cards, and smooth transitions.
+
+**Structure & Pages (Build this as a seamless multi-section single-page app, or with a clear navigation menu routing to these views):**
+
+**1. Hero / Home Section:**
+
+* A stunning, full-screen background image of a luxurious interior.
+* The main slogan front and center: **"Designed around your vision."**
+* A reactive "Explore Our Work" call-to-action button.
+
+**2. About Us Section:**
+
+* Use this polished copy: "Since 1990, Tayabi Decor has blended timeless craftsmanship with new-generation technology. Our team of master artisans, with over 20 years of expertise, is dedicated to imbuing your spaces with positive energy and bringing your design dreams to life. We design, decorate, and maintain residential buildings, villas, corporate headquarters, shopping malls, retail outlets, and hotels."
+
+**3. Services Section:**
+
+* Create a sleek, interactive grid or horizontal scroll layout for our core services. When hovering over a service, it should expand or reveal a relevant background image.
+* The services are:
+* Decoration, Interior & Exterior Paint
+* Carpentry & Joinery Works
+* Gypsum & Partition
+* Exhibition Decoration
+* Office Fit Out & Design
+
+
+
+**4. Portfolio / Gallery Section:**
+
+* A dedicated section showing past works (doors, painting, partitions).
+* **Feature:** It MUST have a functional Lightbox. When a user clicks a high-quality picture in the grid, it should zoom in/pop out in a full-screen overlay so they can see the details.
+
+**5. Contact / Footer Section:**
+
+* A clean contact form.
+* A section displaying contact info (Use a placeholder phone number for now).
+* A placeholder for an Instagram feed and a link to "Follow us on Instagram".
+
+**Execution Instructions:**
+Do not leave placeholders for code. Write all the necessary components, routing, and styling. Make sure the responsive design is flawless on both mobile and desktop. Build the absolute best version of this site right now.
+
