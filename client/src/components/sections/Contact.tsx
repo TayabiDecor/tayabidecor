@@ -16,7 +16,6 @@ import {
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 
-// Local validation schema (no longer relying on the Replit backend)
 const contactSchema = z.object({
   name: z.string().min(2, "Name is required"),
   email: z.string().email("Invalid email address"),
@@ -59,8 +58,7 @@ export default function Contact() {
       if (result.success) {
         toast({
           title: "Message Sent",
-          description:
-            "Thank you for reaching out. We will get back to you shortly.",
+          description: "Thank you for reaching out. We will get back to you shortly.",
         });
         form.reset();
       } else {
@@ -69,8 +67,7 @@ export default function Contact() {
     } catch (error) {
       toast({
         title: "Error",
-        description:
-          "Something went wrong. Please try again or call us directly.",
+        description: "Something went wrong. Please try again or call us directly.",
         variant: "destructive",
       });
     } finally {
@@ -82,7 +79,6 @@ export default function Contact() {
     <section id="contact" className="relative py-24 md:py-32 bg-secondary/30">
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24">
-          {/* Contact Information */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -93,8 +89,7 @@ export default function Contact() {
               Get In Touch
             </span>
             <h2 className="font-display text-4xl md:text-5xl font-bold text-foreground mb-8">
-              Let's build your{" "}
-              <span className="italic font-light">dream space.</span>
+              Let's build your <span className="italic font-light">dream space.</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-12 text-balance">
               Whether you have a clear vision or need expert guidance, our
@@ -117,7 +112,6 @@ export default function Contact() {
             </div>
           </motion.div>
 
-          {/* Contact Form */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -126,10 +120,7 @@ export default function Contact() {
             className="bg-card p-8 md:p-12 rounded-2xl shadow-xl shadow-black/5 border border-border/50"
           >
             <Form {...form}>
-              <form
-                onSubmit={form.handleSubmit(onSubmit)}
-                className="space-y-6"
-              >
+              <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
                 <FormField
                   control={form.control}
                   name="name"
@@ -208,14 +199,15 @@ export default function Contact() {
         </div>
       </div>
 
-      {/* Footer Minimal */}
       <div className="max-w-7xl mx-auto px-6 mt-32 pt-8 border-t border-border flex flex-col md:flex-row items-center justify-between gap-6">
         <p className="text-muted-foreground text-sm font-medium">
           © {new Date().getFullYear()} Tayabi Decor. All rights reserved.
         </p>
         <div className="flex gap-6 text-muted-foreground">
           <a
-            href="#"
+            href="https://www.instagram.com/tayabidecor?igsh=d3pyOWRrMDR2Zzhu"
+            target="_blank"
+            rel="noopener noreferrer"
             className="hover:text-primary transition-colors flex items-center gap-2 text-sm font-medium uppercase tracking-wider"
           >
             <Instagram size={18} /> Instagram
