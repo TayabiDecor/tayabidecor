@@ -42,9 +42,9 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6 md:px-12 flex justify-between items-center">
         <Link href="/" className="cursor-pointer flex items-center">
           <img 
-            src="/logo.png" 
-            alt="Tayabi Decor" 
-            className="h-12 w-auto object-contain" 
+            src="/icon.png" 
+            alt="Tayabi Decor Logo" 
+            className="h-14 w-auto object-contain" 
           />
         </Link>
 
